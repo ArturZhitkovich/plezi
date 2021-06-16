@@ -1,0 +1,41 @@
+@import 'app/styles/index';
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    padding: 40px 20px 20px 20px;
+
+    &__title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    &__tagline {
+        margin-top: 32px;
+        font-size: 20px;
+        color: #fff;   
+    }
+
+    &__overview {
+        font-weight: 300;
+        margin-top: 32px;
+        font-size: 16px;
+        color: rgb(189, 189, 189);
+    }
+
+    &__field {
+        margin-top: 32px;
+        font-size: 16px;
+        color: rgb(189, 189, 189);
+
+        &_title {
+            font-weight: 300;
+            margin-top: 32px;
+            color:#fff;
+        }  
+    }
+}
