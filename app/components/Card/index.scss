@@ -1,0 +1,48 @@
+@import 'app/styles/index';
+
+.card {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 450px;
+    border-radius: 16px;
+    margin: 12px;
+    overflow: hidden;
+    transition: .3s ease-in;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &__link {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        font-size: 24px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &__poster {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    &__title {
+        font-size: 24px;
+    }
+}
